@@ -1,0 +1,4 @@
+goal epoch = 100000
+batch = 15
+steps per epoch = 6549/15 = 436.6
+validation steps = 1595/15 = 106.3
