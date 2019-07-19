@@ -1,0 +1,4 @@
+Pre-trained Deep Convolutional Neural Networks
+for Face Recognition
+
+사전 학습된 모델을 쓰는 이유
