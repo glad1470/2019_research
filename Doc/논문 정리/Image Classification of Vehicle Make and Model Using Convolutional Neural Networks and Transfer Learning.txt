@@ -1,0 +1,7 @@
+Monza: Image Classification of Vehicle Make and Model Using Convolutional Neural Networks and Transfer Learning
+[lediurfinal.pdf]
+같은 dataset을 사용하여 학습을 진행했으며
+imagenet 사전 학습 모델을 기반으로 진행
+caffenet cnn model 
+googlenet model
+vggnet model을 사용

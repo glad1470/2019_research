@@ -1,0 +1,8 @@
+Deep Learning-based Vehicle Classification
+using an Ensemble of Local Expert and Global Networks
+[http://openaccess.thecvf.com/content_cvpr_2017_workshops/w9/papers/Lee_Deep_Learning-Based_Vehicle_CVPR_2017_paper.pdf]
+12개의 local network와 6 global network를 사용하여 네트워크를 구성하였다
+local network는 K개의 class를 K/3 개만을 구분할 수 있게 나누고, 각 그룹에 3개의 class가 있게 묶은 후 학습하고
+global network는 전체의 class에 대해 학습 한다
+총 18개의 학습된 모델로 판별을 진행 후 결과들을 합쳐 Softmax로 활성하여 최종 결과를 출력한다.
+약 1.73%-3.79%의 error rate를 보임
